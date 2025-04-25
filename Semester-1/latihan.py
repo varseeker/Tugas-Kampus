@@ -292,7 +292,7 @@ while True:
     if kode_menu.lower() == 'selesai':
         pajak = 0.1 * overallTotal
         overallTotal = overallTotal + pajak
-        belanja.append(['-', '-', 'Total Pesanan', overallTotal])
+        belanja.append(['-', '-', 'Total Pesanan (Pajak 10%)', overallTotal])
         break
     if kode_menu in menu_df['Kode Menu'].values:
         banyak_menu = int(input(f"Masukkan jumlah {menu_df[menu_df['Kode Menu'] == kode_menu]['Jenis Menu'].values[0]} yang dipesan: "))
