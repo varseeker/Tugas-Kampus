@@ -244,7 +244,7 @@
       <!-- footer -->
       <!-- ============================================================== -->
       <footer class="footer text-center">
-        Copyright &copy; 2024 | Toko Online | by Mohammad Ichwan Al Ghifari
+        Copyright &copy; 2024 | Toko Online | by Azure Lights
       </footer>
       <!-- ============================================================== -->
       <!-- End footer -->

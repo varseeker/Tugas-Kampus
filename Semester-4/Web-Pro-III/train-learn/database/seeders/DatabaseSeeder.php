@@ -22,16 +22,16 @@ class DatabaseSeeder extends Seeder
             'email' => 'admin@gmail.com',
             'role' => '1',
             'status' => 1,
-            'hp' => '08123456789',
-            'password' => bcrypt('P@55word'),
+            'hp' => '085123123123',
+            'password' => bcrypt('admin'),
         ]);
         User::factory()->create([
-            'nama' => 'Mohammad Ichwan Al Ghifari',
-            'email' => 'Ichwan@gmail.com',
+            'nama' => 'Azure',
+            'email' => 'azurelights21@gmail.com',
             'role' => '0',
             'status' => 1,
-            'hp' => '08234567890',
-            'password' => bcrypt('P@55word'),
+            'hp' => '085773590904',
+            'password' => bcrypt('azurelights'),
         ]);
 
         // KATEGORI

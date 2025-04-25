@@ -282,7 +282,7 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `nama`, `email`, `role`, `status`, `password`, `hp`, `foto`, `created_at`, `updated_at`) VALUES
 (1, 'Administrator', 'admin@gmail.com', '1', 1, '$2y$12$LeenIMZqAH3/l7ArYaM5Zei2nUG4a1F7SxF7.V5pLABKSipC3563q', '08123456789', NULL, '2025-04-24 17:55:20', '2025-04-24 17:55:20'),
-(2, 'Mohammad Ichwan Al Ghifari', 'Ichwan@gmail.com', '0', 1, '$2y$12$nxuCHJMI3f3rKvKwALls3uxaRof2aWUdTl15qlKXPj8ixrEviAx4K', '08234567890', NULL, '2025-04-24 17:55:20', '2025-04-24 17:55:20');
+(2, 'Azure', 'azurelights21@gmail.com', '0', 1, '$2y$12$nxuCHJMI3f3rKvKwALls3uxaRof2aWUdTl15qlKXPj8ixrEviAx4K', '08234567890', NULL, '2025-04-24 17:55:20', '2025-04-24 17:55:20');
 
 --
 -- Indexes for dumped tables
