@@ -3,22 +3,34 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use PhpCsFixer\Error\ErrorsManager;
+use Symfony\Component\EventDispatcher\EventDispatcher;
 
 class AppServiceProvider extends ServiceProvider
 {
     /**
-     * Register any application services.
+     * Bootstrap any application services.
+     *
+     * @return void
      */
-    public function register(): void
+    public function boot()
     {
         //
     }
 
     /**
-     * Bootstrap any application services.
+     * Register any application services.
+     *
+     * @return void
      */
-    public function boot(): void
+    public function register()
     {
-        //
+        $this->app->singleton(ErrorsManager::class, function () {
+            return new ErrorsManager;
+        });
+
+        $this->app->singleton(EventDispatcher::class, function () {
+            return new EventDispatcher;
+        });
     }
 }
